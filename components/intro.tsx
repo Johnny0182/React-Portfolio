@@ -3,6 +3,10 @@
 import React from 'react';
 import Image from 'next/image'; // Correct import for the Image component
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs"
+import { HiDownload } from "react-icons/hi";
+import { FaGithub, FaGithubSquare } from 'react-icons/fa';
 
 export default function Intro() {
   return (
@@ -56,23 +60,68 @@ export default function Intro() {
         <span className="font-bold">California State Dominguez Hills</span>. I enjoy
         building <span className="italic">websites, applications, and doing anything computer related</span>.
       </motion.h1>
-      
+      {/*All buttons below! Link used for regular buttons*/}
+      {/*a > is used for download buttons*/}
+      <motion.div className="flex flex-col sm:flex-row
+      items-center justify-center gap-2 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
+      >
+        <Link href="#contact" 
+        className="bg-gray-900 text-white px-7 py-3 flex items-center
+        gap-2 rounded-full">
+          Contact me here <BsArrowRight />
+        </Link>
+        <a className="bg-white px-7 py-3 flex items-center
+        gap-2 rounded-full">
+          Download Resume <HiDownload />
+        </a>
+        <a className="bg-white p-4 text-gray-700 flex items-center
+        gap-2 rounded-full">
+          <BsLinkedin />
+        </a>
+        <a className="bg-white p-4 text-gray-700 flex items-center
+        gap-2 text-[1.35rem] rounded-full">
+          <FaGithubSquare />
+        </a>
+      </motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <p className="mb-3">
-      I am currently pursuing a degree in 
-      <span className="font-medium"> Accounting</span>, and am expected to graduate in 
-      <span className="font-medium"> June 2025</span>. I currently work as a Security Guard at the 
-      <span className="font-medium"> Port of Los Angeles</span>, where I assist in screening over 3,000 passengers everyday. 
-      I am proficient with 
-      <span className="font-medium"> Microsoft Excel, Word, PowerPoint, Access,</span> and have extensive experience with file management using 
-      <span className="font-medium"> OneDrive</span>. I also have experience in 
-      <span className="font-medium"> Python, React, HTML, CSS, and JavaScript</span>, along with a solid understanding of 
-      <span className="font-medium"> Linux systems/Virtual Machines.</span> My experience with programming began in high school through a
-      <span className="font-medium"> Cyber Patriots Team,</span> where I developed valuable cybersecurity skills.
-      I got back into programming during an accounting internship last year where I created an invoice generator and 
-      a bulk Word to PDF converter using Python. These projects noticeably boosted my efficiency and I quickly moved into a leadership role. 
-      I've also built websites for friends and family. Looking ahead, I'm eager to leverage my diverse skill set in any work environment and am committed to pursuing my CPA license after graduation.
+      I love working in teams and am eager to contribute to a workplace where I can make a meaningful impact. I am actively pursuing a degree in 
+    <span className="font-medium"> Accounting</span> at 
+    <span className="font-medium"> California State University Dominguez Hills</span>, with an anticipated graduation in 
+    <span className="font-medium"> June 2025</span>, and I look forward to pursuing my CPA after graduation. Currently, I work as a maritime security guard at the 
+    <span className="font-medium"> Port of Los Angeles</span>, screening over 3,000 passengers daily. I am proficient in 
+    <span className="font-medium"> Excel, Word, Access, PowerPoint, Outlook, and VS Code</span>, with extensive experience in file management using 
+    <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>. I have a passion for creating websites and have worked with 
+    <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
+    Accounts Payable, where I managed financial data and invoices with Excel. I started as an intern and was later hired as Lead Accounts Receivable/Payable for the finance department.
+    Additionally, I have over three years of experience as a security guard at the 
+    Los Angeles Cruise Center, where I developed strong interpersonal skills. My experience also includes working in educational settings and supporting adults with special needs.
       </p>
+
     </section>
   );
 }
