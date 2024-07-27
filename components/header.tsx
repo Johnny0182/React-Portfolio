@@ -23,7 +23,7 @@ export default function Header() {
             {/*I assume we can import any data from data which is pretty cool : )*/}
             <ul className="flex w-[22rem] flex-wrap
             items-center justify-center gap-y-1 text-[0.9rem]
-            font-medium text-gray-500 sm:w-[initial]
+            font-medium text-gray-900 sm:w-[initial]
             sm:flex-nowrap sm:gap-5">
               {/*above the flex helps with making the text for the nav bar go horizontal*/}
               {/*below we are adding motion to the li's to animate the nav bar hover effect*/}
@@ -38,7 +38,7 @@ export default function Header() {
                   <Link 
                     className="flex w-full items-center
                     justify-center px-3 py-3
-                   hover:text-gray-950 transition"
+                   hover:text-blue-500 transition"
                     href={link.hash}
                 >
                       {link.name}

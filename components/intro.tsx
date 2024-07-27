@@ -28,7 +28,7 @@ export default function Intro() {
             height="192"
             quality="95"
             priority={true}
-            className="h-24 w-24 rounded-full
+            className="h-30 w-30 rounded-full
             object-cover border-[0.35rem]
             border-white shadow-xl"
           />  
@@ -46,7 +46,7 @@ export default function Intro() {
                 duration: 0.7,
         }}
           >
-            ✌🏻
+            🐱‍💻
         </motion.span>
         </div>
       </div>
@@ -55,10 +55,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Johnny Leyva.</span> I'm an aspiring{" "}
-        <span className="font-bold"> Accountant,</span> pursuing a Bachelors Degree at{" "}
-        <span className="font-bold">California State Dominguez Hills</span>. I enjoy
-        building <span className="italic">websites, applications, and doing anything computer related</span>.
+        <span>Hello, my name is</span>
+        <span className="font-bold"> Johnny Leyva.</span> I'm an aspiring{" "}
+        <span className="font-bold"> Accountant,</span> pursuing a{" "}
+        <span className="font-bold"> Bachelors Degree</span> at
+        <span className="font-bold"> California State University Dominguez Hills</span>. I enjoy 
+        <span className="font-bold"> building websites</span>,
+        <span> reading, and playing video games in my free time.</span>
+
+
       </motion.h1>
       {/*All buttons below! Link used for regular buttons*/}
       {/*a > is used for download buttons*/}
@@ -71,20 +76,36 @@ export default function Intro() {
         }}
       >
         <Link href="#contact" 
-        className="bg-gray-900 text-white px-7 py-3 flex items-center
-        gap-2 rounded-full">
-          Contact me here <BsArrowRight />
+        className="group bg-black text-white px-7 py-3 flex items-center
+        gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
+        hover:bg-blue-400 active:scale-105 transition">
+          Contact me here <BsArrowRight 
+          className="opacity-70 group-hover:translate-x-1 transition"/>
         </Link>
-        <a className="bg-white px-7 py-3 flex items-center
-        gap-2 rounded-full">
-          Download Resume <HiDownload />
+        <a 
+        className="group bg-white px-7 py-3 flex items-center
+        gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
+        active:scale-105 transition cursor-pointer border border-black/10"
+        href="/Resume.pdf" 
+        download
+        >
+          Download Resume <HiDownload 
+          className="opacity-60 group-hover:translate-y-1 transition"/>
         </a>
-        <a className="bg-white p-4 text-gray-700 flex items-center
-        gap-2 rounded-full">
+
+        <a 
+        className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center
+        gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]
+        active:scale-105 transition cursor-pointer border border-black/10"
+        href="https://www.linkedin.com/in/johnny-leyva-125259167" target="_blank">
           <BsLinkedin />
         </a>
-        <a className="bg-white p-4 text-gray-700 flex items-center
-        gap-2 text-[1.35rem] rounded-full">
+        <a 
+        className="bg-white p-4 text-gray-700 flex items-center
+        gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]
+        hover:text-gray-950
+        active:scale-105 transition cursor-pointer border border-black/10"
+        href="https://github.com/Johnny0182" target="_blank">
           <FaGithubSquare />
         </a>
       </motion.div>
@@ -117,9 +138,10 @@ export default function Intro() {
     <span className="font-medium"> Excel, Word, Access, PowerPoint, Outlook, and VS Code</span>, with extensive experience in file management using 
     <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>. I have a passion for creating websites and have worked with 
     <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
-    Accounts Payable, where I managed financial data and invoices with Excel. I started as an intern and was later hired as Lead Accounts Receivable/Payable for the finance department.
+    Accounts Payable, where I managed financial data and invoices with Excel. I started as an intern and was later hired as Lead 
+    <span className="font-medium"> Accounts Receivable/Payable</span> for the finance department.
     Additionally, I have over three years of experience as a security guard at the 
-    Los Angeles Cruise Center, where I developed strong interpersonal skills. My experience also includes working in educational settings and supporting adults with special needs.
+    <span className="font-medium"> Los Angeles Cruise Center</span>.
       </p>
 
     </section>
