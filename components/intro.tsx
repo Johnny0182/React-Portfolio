@@ -50,7 +50,7 @@ export default function Intro() {
         </motion.span>
         </div>
       </div>
-      <motion.h1
+      <motion.h2
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -61,10 +61,10 @@ export default function Intro() {
         <span className="font-bold"> Bachelors Degree</span> at
         <span className="font-bold"> California State University Dominguez Hills</span>. I enjoy 
         <span className="font-bold"> building websites</span>,
-        <span> reading, and playing video games in my free time.</span>
+        <span> reading, and playing video games.</span>
 
 
-      </motion.h1>
+      </motion.h2>
       {/*All buttons below! Link used for regular buttons*/}
       {/*a > is used for download buttons*/}
       <motion.div className="flex flex-col sm:flex-row
@@ -78,14 +78,14 @@ export default function Intro() {
         <Link href="#contact" 
         className="group bg-black text-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        hover:bg-blue-400 active:scale-105 transition">
+        hover:bg-[#6495ED] active:scale-105 transition">
           Contact me here <BsArrowRight 
           className="opacity-70 group-hover:translate-x-1 transition"/>
         </Link>
         <a 
         className="group bg-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        active:scale-105 transition cursor-pointer border border-black/10"
+        hover:bg-green-500 hover:text-white active:scale-105 transition cursor-pointer border border-black/10"
         href="/Resume.pdf" 
         download
         >
@@ -94,8 +94,8 @@ export default function Intro() {
         </a>
 
         <a 
-        className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center
-        gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]
+        className="bg-white p-4 text-gray-700 flex items-center
+        gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:bg-blue-700 hover:text-white
         active:scale-105 transition cursor-pointer border border-black/10"
         href="https://www.linkedin.com/in/johnny-leyva-125259167" target="_blank">
           <BsLinkedin />
@@ -103,47 +103,12 @@ export default function Intro() {
         <a 
         className="bg-white p-4 text-gray-700 flex items-center
         gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]
-        hover:text-gray-950
+        hover:bg-[#ac48ff] hover:text-white
         active:scale-105 transition cursor-pointer border border-black/10"
         href="https://github.com/Johnny0182" target="_blank">
           <FaGithubSquare />
         </a>
       </motion.div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <p className="mb-3">
-      I love working in teams and am eager to contribute to a workplace where I can make a meaningful impact. I am actively pursuing a degree in 
-    <span className="font-medium"> Accounting</span> at 
-    <span className="font-medium"> California State University Dominguez Hills</span>, with an anticipated graduation in 
-    <span className="font-medium"> June 2025</span>, and I look forward to pursuing my CPA after graduation. Currently, I work as a maritime security guard at the 
-    <span className="font-medium"> Port of Los Angeles</span>, screening over 3,000 passengers daily. I am proficient in 
-    <span className="font-medium"> Excel, Word, Access, PowerPoint, Outlook, and VS Code</span>, with extensive experience in file management using 
-    <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>. I have a passion for creating websites and have worked with 
-    <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
-    Accounts Payable, where I managed financial data and invoices with Excel. I started as an intern and was later hired as Lead 
-    <span className="font-medium"> Accounts Receivable/Payable</span> for the finance department.
-    Additionally, I have over three years of experience as a security guard at the 
-    <span className="font-medium"> Los Angeles Cruise Center</span>.
-      </p>
-
     </section>
   );
 }

@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import corpcommentImg from "@/public/corpcomment.png";
+import rmtdevImg from "@/public/rmtdev.png";
+import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -91,28 +94,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Sample Project 1",
+    title: "Cable Construction",
     description: `
       Description of your project goes here.
     `,
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "path/to/your/project1image.png",
+    imageUrl: "corpcomment.png",
   },
   {
-    title: "Sample Project 2",
+    title: "Invoicing Made Easy",
     description: `
       Description of your project goes here.
     `,
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "path/to/your/project2image.png",
+    imageUrl: "rmtdev.png",
   },
   {
-    title: "Sample Project 3",
+    title: "Takeout & Delivery App",
     description: `
       Description of your project goes here.
     `,
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "path/to/your/project3image.png",
+    imageUrl: "wordanalytics.png",
   },
 ] as const;
 
