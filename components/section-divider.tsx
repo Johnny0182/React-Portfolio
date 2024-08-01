@@ -1,5 +1,5 @@
 "use client";
-
+/* needs to be a client component to use motio.div */
 import React from 'react'
 import { motion } from "framer-motion";
 

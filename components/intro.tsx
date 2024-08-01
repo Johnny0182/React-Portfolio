@@ -78,14 +78,14 @@ export default function Intro() {
         <Link href="#contact" 
         className="group bg-black text-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        hover:bg-[#6495ED] active:scale-105 transition">
+        hover:bg-blue-700 active:scale-105 transition">
           Contact me here <BsArrowRight 
           className="opacity-70 group-hover:translate-x-1 transition"/>
         </Link>
         <a 
         className="group bg-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        hover:bg-green-500 hover:text-white active:scale-105 transition cursor-pointer border border-black/10"
+        hover:bg-green-600 hover:text-white active:scale-105 transition cursor-pointer border border-black/10"
         href="/Resume.pdf" 
         download
         >
@@ -103,7 +103,7 @@ export default function Intro() {
         <a 
         className="bg-white p-4 text-gray-700 flex items-center
         gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]
-        hover:bg-[#ac48ff] hover:text-white
+        hover:bg-green-600 hover:text-white
         active:scale-105 transition cursor-pointer border border-black/10"
         href="https://github.com/Johnny0182" target="_blank">
           <FaGithubSquare />

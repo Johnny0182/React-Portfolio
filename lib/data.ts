@@ -99,7 +99,7 @@ export const projectsData = [
       Description of your project goes here.
     `,
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "corpcomment.png",
+    imageUrl: corpcommentImg,
   },
   {
     title: "Invoicing Made Easy",
@@ -107,7 +107,7 @@ export const projectsData = [
       Description of your project goes here.
     `,
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "rmtdev.png",
+    imageUrl: rmtdevImg,
   },
   {
     title: "Takeout & Delivery App",
@@ -115,7 +115,7 @@ export const projectsData = [
       Description of your project goes here.
     `,
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "wordanalytics.png",
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 

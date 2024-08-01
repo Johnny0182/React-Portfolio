@@ -13,13 +13,12 @@ export default function About() {
         >
             <SectionHeading>About Me</SectionHeading>
             <p className="mb-3">
-                I love working in teams and am eager to contribute to a workplace where I can make a meaningful impact. I am actively pursuing a degree in 
+                I  am actively pursuing a degree in 
                 <span className="font-medium"> Accounting</span> at 
                 <span className="font-medium"> California State University Dominguez Hills</span>, with an anticipated graduation in 
-                <span className="font-medium"> June 2025</span>, and I look forward to pursuing my CPA after graduation. Currently, I work as a maritime security guard at the 
-                <span className="font-medium"> Port of Los Angeles</span>, screening over 3,000 passengers daily. I am proficient in 
+                <span className="font-medium"> June 2025</span>, and I look forward to pursuing my CPA after graduation. I am proficient in 
                 <span className="font-medium"> Excel, Word, Access, PowerPoint, Outlook, and VS Code</span>, with extensive experience in file management using 
-                <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>. 
+                <span className="font-medium"> OneDrive, Dropbox, and GoogleDrive</span>. 
             </p>
             <p>
                 I have a passion for creating websites and have worked with 
