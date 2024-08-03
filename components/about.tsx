@@ -23,8 +23,8 @@ export default function About() {
             <p>
                 I have a passion for creating websites and have worked with 
                 <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
-                Accounts Payable, where I managed financial data and invoices with Excel. I started as an intern and was later hired as Lead 
-                <span className="font-medium"> Accounts Receivable/Payable</span> for the finance department.
+                Accounts Payable, where I managed financial data and invoices with Excel. I started off as an intern and was later hired as a
+                <span className="font-medium"> Lead for the Accounts Receivable/Payable Department</span> at WestCalAcademy.
                 Additionally, I have over three years of experience as a security guard at the 
                 <span className="font-medium"> Los Angeles Cruise Center</span>.
             </p>

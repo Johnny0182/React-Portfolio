@@ -96,25 +96,25 @@ export const projectsData = [
   {
     title: "Cable Construction",
     description: `
-      Description of your project goes here.
+      A website designed for a cable construction company. Built with HTML, CSS, and JavaScript.
     `,
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["HTML", "CSS", "JavaScript", "NodeJS"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "Invoicing Made Easy",
+    title: "Easy Invoicing",
     description: `
-      Description of your project goes here.
+      A streamlined invoicing tool that simplifies billing processes for small businesses. Developed with Python and Flask.
     `,
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["Python", "Excel", "Flask", "Outlook"],
     imageUrl: rmtdevImg,
   },
   {
     title: "Takeout & Delivery App",
     description: `
-      Description of your project goes here.
+      A mobile-friendly app that helps users order takeout from local restaurants. Created with React and SQL.
     `,
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["React", "Next.js", "SQL", "Tailwind", "MongoDB"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
