@@ -42,7 +42,7 @@ export const experiencesData = [
       Assisted the lead teacher with classroom control, grading papers, and aiding with any other tasks required by the instructor.
       Prepared and set up educational materials and activities, ensuring equipment was safely arranged, ready for use, and properly put away.
     `,
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "August 2022 - Present",
   },
   {
@@ -65,7 +65,7 @@ export const experiencesData = [
       Performed thorough cleaning/sanitation of restrooms and regularly emptied and replaced trash cans throughout the facility.
       Followed established safety guidelines and procedures while performing janitorial duties, prioritizing safety for coworkers and others in a busy warehouse setting.
     `,
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "March 2019 - January 2021",
   },
   {
