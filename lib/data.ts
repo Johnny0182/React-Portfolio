@@ -35,15 +35,15 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Summer School Instructor Aide",
-    location: "Rancho Dominguez, CA",
+    title: "Billing and Accounts Receivable",
+    location: "Long Beach, CA",
     description: `
-      Provided individual assistance to students with learning activities and assignments.
-      Assisted the lead teacher with classroom control, grading papers, and aiding with any other tasks required by the instructor.
-      Prepared and set up educational materials and activities, ensuring equipment was safely arranged, ready for use, and properly put away.
+      Utilize Outlook and OneDrive daily for communication and file management, ensuring organization and easy access to important documents.
+      Develop and maintain several Excel spreadsheets to create and manage budgets, enabling smooth financial planning and analysis.
+      Manage hundreds of invoices monthly, ensuring accuracy and timely billing.
     `,
-    icon: React.createElement(LuGraduationCap),
-    date: "August 2022 - Present",
+    icon: React.createElement(CgWorkAlt),
+    date: "March 2024 - Present",
   },
   {
     title: "Security Guard",
@@ -58,14 +58,25 @@ export const experiencesData = [
     date: "January 2021 - Present",
   },
   {
+    title: "Summer School Instructor Aide",
+    location: "Rancho Dominguez, CA",
+    description: `
+      Provided individual assistance to students with learning activities and assignments.
+      Assisted the lead teacher with classroom control, grading papers, and aided with any other tasks required by the instructor.
+      Assisted in preparing and setting up educational materials and activities. Ensured that equipment was safely arranged, ready for use, and later properly put away.
+    `,
+    icon: React.createElement(LuGraduationCap),
+    date: "August 2018 - December 2023",
+  },
+  {
     title: "Custodian",
     location: "Torrance, CA",
     description: `
       Efficiently drove and operated a floor scrubber to maintain the cleanliness of large warehouse floors, ensuring a tidy and safe working environment for employees and visitors.
-      Performed thorough cleaning/sanitation of restrooms and regularly emptied and replaced trash cans throughout the facility.
-      Followed established safety guidelines and procedures while performing janitorial duties, prioritizing safety for coworkers and others in a busy warehouse setting.
+      Performed thorough cleaning/sanitation of restrooms and regularly emptied and replaced trash cans throughout the facility, disposed of waste properly in various sections of the warehouse.
+      Followed established safety guidelines and procedures while performing janitorial duties. Prioritized safety for both my coworkers and others in a busy warehouse setting.
     `,
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "March 2019 - January 2021",
   },
   {
@@ -74,21 +85,11 @@ export const experiencesData = [
     description: `
       Provided personalized support to 3-4 clients with special needs weekly, offering transportation to appointments and job interviews.
       Accompanied clients to their workplace and assisted with the training process until they could independently fulfill job requirements.
-      Conducted interview preparation sessions, helping clients with effective communication strategies and confidence-building techniques.
+      Conducted interview preparation sessions, to help clients with effective communication strategies, and confidence-building techniques to enhance their success in job interviews.
+      Assisted clients in finding a job, completing applications, creating connections with employers, and ultimately aiding them in securing meaningful employment opportunities.
     `,
     icon: React.createElement(CgWorkAlt),
     date: "October 2018 - March 2019",
-  },
-  {
-    title: "Campaign Canvasser",
-    location: "South Gate, CA",
-    description: `
-      Conducted phone calls to registered voters within District 44 to inform them about Nanette Diaz Barragán's candidacy and persuade them to vote for her in the upcoming election.
-      Engaged with potential voters in meaningful conversations, addressing their concerns, and highlighting Nanette Diaz Barragán's qualifications.
-      Organized voter lists, utilized electronic devices, and efficiently updated people on the upcoming election.
-    `,
-    icon: React.createElement(CgWorkAlt),
-    date: "January 2016 - March 2016",
   },
 ] as const;
 
