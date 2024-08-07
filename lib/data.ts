@@ -36,6 +36,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Billing and Accounts Receivable",
+    company: "WestCal Academy",
     location: "Long Beach, CA",
     description: `
       Utilize Outlook and OneDrive daily for communication and file management, ensuring organization and easy access to important documents.
@@ -47,6 +48,7 @@ export const experiencesData = [
   },
   {
     title: "Security Guard",
+    company: "American Guard Services Inc.",
     location: "Port of Los Angeles",
     description: `
       Operate X-Ray Machines to scan bags, belongings, and items carried by guests.
@@ -59,6 +61,7 @@ export const experiencesData = [
   },
   {
     title: "Summer School Instructor Aide",
+    company: "St. Albert the Great School",
     location: "Rancho Dominguez, CA",
     description: `
       Provided individual assistance to students with learning activities and assignments.
@@ -70,6 +73,7 @@ export const experiencesData = [
   },
   {
     title: "Custodian",
+    company: "Amazon Warehouse",
     location: "Torrance, CA",
     description: `
       Efficiently drove and operated a floor scrubber to maintain the cleanliness of large warehouse floors, ensuring a tidy and safe working environment for employees and visitors.
@@ -81,6 +85,7 @@ export const experiencesData = [
   },
   {
     title: "Job Coach",
+    company: "Aim Higher Inc.",
     location: "West Covina, CA",
     description: `
       Provided personalized support to 3-4 clients with special needs weekly, offering transportation to appointments and job interviews.
