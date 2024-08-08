@@ -26,7 +26,7 @@ export default function About() {
                 <span className="font-medium"> OneDrive, Dropbox, and GoogleDrive</span>. 
             </p>
             <p>
-                I have a passion for creating websites and have worked with
+                I love for creating websites and have worked with
                 <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
                 Accounts Payable, where I managed financial data and invoices with Excel. I started off as an intern and was later hired as a
                 <span className="font-medium"> Lead for the Accounts Receivable/Payable Department</span> at WestCalAcademy.
