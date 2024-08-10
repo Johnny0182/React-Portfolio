@@ -5,9 +5,12 @@ import SectionHeading from './section-heading';
 import { FaPaperPlane } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
+import { sendEmail } from "@/actions/sendEmail";
+
 
 export default function Contact() {
     const { ref } = useSectionInView("Contact");
+
   return (
     <motion.section 
         id="contact"
@@ -29,17 +32,18 @@ export default function Contact() {
 >
       <SectionHeading>Contact Me</SectionHeading>
       <p className="text-gray-700 -mt-6">
-        Please contact me directly at 
+        Please contact me directly at:
         <a 
           className="underline" 
-          href="mailto:johnny.leyva182@gmail.com"
-        > johnny.leyva182@gmail.com
-        </a>{" "} or through this form.
+          href="mailto:johnny.leyva182@gmail.com"> 
+          johnny.leyva182@gmail.com
+        </a>{" "} 
+        or through this form.
       </p>
 
       <form className="mt-10 flex flex-col"
       action={async (formData) => {
-        console.log(formData);
+        await sendEmail(formData);
       }} 
       >
         <input 
@@ -47,12 +51,16 @@ export default function Contact() {
         name="senderEmail"
         type="email"
         required
+        maxLength={500}
         placeholder="Your email"
-        maxLength={500} 
         />
-        <textarea className="h-52 my-3 rounded-lg borderBlack p-4"
+        <textarea 
+        className="h-52 my-3 rounded-lg borderBlack p-4"
         name="message"
-        placeholder="Your message"/>
+        placeholder="Your message"
+        required
+        maxLength={5000} 
+        />
         <button type="submit" 
         className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-950
         text-white rounded-full outline-none transition-all

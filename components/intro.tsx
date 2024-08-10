@@ -100,7 +100,7 @@ export default function Intro() {
         <a 
         className="group bg-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        hover:bg-green-600 hover:text-white active:scale-105 transition cursor-pointer border borderBlack"
+        hover:bg-green-600 hover:text-white active:scale-105 transition cursor-pointer borderBlack"
         href="/Resume.pdf" 
         download
         >
@@ -111,7 +111,7 @@ export default function Intro() {
         <a 
         className="bg-white p-4 text-gray-700 flex items-center
         gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:bg-blue-700 hover:text-white
-        active:scale-105 transition cursor-pointer border borderBlack"
+        active:scale-105 transition cursor-pointer borderBlack"
         href="https://www.linkedin.com/in/johnny-leyva-125259167" target="_blank">
           <BsLinkedin />
         </a>
@@ -119,7 +119,7 @@ export default function Intro() {
         className="bg-white p-4 text-gray-700 flex items-center
         gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]
         hover:bg-green-600 hover:text-white
-        active:scale-105 transition cursor-pointer border borderBlack"
+        active:scale-105 transition cursor-pointer borderBlack"
         href="https://github.com/Johnny0182" target="_blank">
           <FaGithubSquare />
         </a>
