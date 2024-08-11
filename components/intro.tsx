@@ -66,8 +66,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span>Hello, my name is</span>
-        <span className="font-bold"> Johnny Leyva.</span> I'm an aspiring{" "}
-        <span className="font-bold"> Accountant,</span> pursuing a{" "}
+        <span className="font-bold"> Johnny Leyva.</span> I'm an aspiring
+        <span className="font-bold"> Accountant,</span> pursuing a
         <span className="font-bold"> Bachelors Degree</span> at
         <span className="font-bold"> California State University Dominguez Hills</span>. I enjoy 
         <span className="font-bold"> building websites</span>,
@@ -75,8 +75,6 @@ export default function Intro() {
 
 
       </motion.h2>
-      {/*All buttons below! Link used for regular buttons*/}
-      {/*a > is used for download buttons*/}
       <motion.div className="flex flex-col sm:flex-row
       items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
