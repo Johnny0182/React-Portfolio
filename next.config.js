@@ -8,11 +8,9 @@ const nextConfig = {
       },
     ],
   },
-  // Remove the experimental section as server actions are now available by default
-  // experimental: {
-  //   serverActions: true,
-  // },
-  output: 'standalone', // This is important for Netlify dgieployment
+  experimental: {
+    serverActions: true,
+  },
 };
 
 module.exports = nextConfig;
