@@ -12,7 +12,7 @@ const nextConfig = {
   // experimental: {
   //   serverActions: true,
   // },
-  output: 'standalone', // This is important for Netlify deployment
+  output: 'standalone', // This is important for Netlify dgieployment
 };
 
 module.exports = nextConfig;
