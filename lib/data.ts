@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cableImg from "@/public/cable.png";
+import invoiceImg from "@/public/invoice.png";
+import takeoutImg from "@/public/takeout.png";
 
 export const links = [
   {
@@ -105,7 +105,8 @@ export const projectsData = [
       A website designed for a cable construction company. Built with HTML, CSS, and JavaScript.
     `,
     tags: ["HTML", "CSS", "JavaScript", "NodeJS"],
-    imageUrl: corpcommentImg,
+    imageUrl: cableImg,
+    link: "https://github.com/Johnny0182"
   },
   {
     title: "Easy Invoicing",
@@ -113,7 +114,8 @@ export const projectsData = [
       A streamlined invoicing tool that simplifies billing processes for small businesses. Developed with Python and Flask.
     `,
     tags: ["Python", "Excel", "Flask", "Outlook"],
-    imageUrl: rmtdevImg,
+    imageUrl: invoiceImg,
+    link: "https://github.com/Johnny0182/invoice-generator"
   },
   {
     title: "Takeout & Delivery App",
@@ -121,7 +123,8 @@ export const projectsData = [
       A mobile-friendly app that helps users order takeout from local restaurants. Created with React and SQL.
     `,
     tags: ["React", "Next.js", "SQL", "Tailwind", "MongoDB"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: takeoutImg,
+    link: "https://github.com/Johnny0182"
   },
 ] as const;
 
