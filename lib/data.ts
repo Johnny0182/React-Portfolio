@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuHeartHandshake, LuSprayCan, LuSchool2, LuPersonStanding, LuCalculator } from "react-icons/lu";
 import cableImg from "@/public/cable.png";
 import invoiceImg from "@/public/invoice.png";
 import takeoutImg from "@/public/takeout.png";
@@ -35,29 +34,37 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Accounts Receivable Specialist",
+    company: "American Guard Services Inc.",
+    location: "Gardena, CA",
+    description: `
+    Experience with using financial software and tools, including Oracle, NetSuite, and Excel. Utilize Outlook/OneDrive daily for efficient communication and document management. Experienced with the accounts receivable process, 
+    including sending invoices to clients via email, following up on outstanding payments through phone calls, and ensuring timely collection of funds owed.
+    `,
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2024 - Present",
+  },
+  {
     title: "Billing and Accounts Receivable",
     company: "WestCal Academy",
     location: "Long Beach, CA",
     description: `
-      Utilize Outlook and OneDrive daily for communication and file management, ensuring organization and easy access to important documents.
-      Develop and maintain several Excel spreadsheets to create and manage budgets, enabling smooth financial planning and analysis.
-      Manage hundreds of invoices monthly, ensuring accuracy and timely billing.
+      Utilize Outlook and OneDrive daily for efficient communication and document management. Develop Excel spreadsheets for budget creation, management, and planning. Manage hundreds of monthly invoices, ensuring accurate and timely billing.
     `,
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuCalculator),
     date: "March 2024 - Present",
   },
   {
-    title: "Security Guard",
+    title: "Maritime Security Guard",
     company: "American Guard Services Inc.",
     location: "Port of Los Angeles",
     description: `
       Operate X-Ray Machines to scan bags, belongings, and items carried by guests.
-      Monitor and patrol assigned zones, promptly responding to security breaches and suspicious activities.
-      Interact courteously and professionally with guests undergoing the security screening process, explaining procedures and providing assistance as needed.
+      Interact courteously and professionally with guests undergoing the security screening process.
       Collaborate with law enforcement and port officials to maintain a secure environment and adhere to maritime security regulations.
     `,
-    icon: React.createElement(CgWorkAlt),
-    date: "January 2021 - Present",
+    icon: React.createElement(LuPersonStanding),
+    date: "January 2021 - July 2024",
   },
   {
     title: "Summer School Instructor Aide",
@@ -66,9 +73,9 @@ export const experiencesData = [
     description: `
       Provided individual assistance to students with learning activities and assignments.
       Assisted the lead teacher with classroom control, grading papers, and aided with any other tasks required by the instructor.
-      Assisted in preparing and setting up educational materials and activities. Ensured that equipment was safely arranged, ready for use, and later properly put away.
+      Assisted in preparing and setting up educational materials and activities.
     `,
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(LuSchool2),
     date: "August 2018 - December 2023",
   },
   {
@@ -77,10 +84,10 @@ export const experiencesData = [
     location: "Torrance, CA",
     description: `
       Efficiently drove and operated a floor scrubber to maintain the cleanliness of large warehouse floors, ensuring a tidy and safe working environment for employees and visitors.
-      Performed thorough cleaning/sanitation of restrooms and regularly emptied and replaced trash cans throughout the facility, disposed of waste properly in various sections of the warehouse.
-      Followed established safety guidelines and procedures while performing janitorial duties. Prioritized safety for both my coworkers and others in a busy warehouse setting.
+      Performed thorough cleaning/sanitation of restrooms.
+      Followed and established safety guidelines and procedures while performing janitorial duties.
     `,
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuSprayCan),
     date: "March 2019 - January 2021",
   },
   {
@@ -90,10 +97,9 @@ export const experiencesData = [
     description: `
       Provided personalized support to 3-4 clients with special needs weekly, offering transportation to appointments and job interviews.
       Accompanied clients to their workplace and assisted with the training process until they could independently fulfill job requirements.
-      Conducted interview preparation sessions, to help clients with effective communication strategies, and confidence-building techniques to enhance their success in job interviews.
-      Assisted clients in finding a job, completing applications, creating connections with employers, and ultimately aiding them in securing meaningful employment opportunities.
+      Conducted interview preparation sessions, to help clients enhance their success in job interviews.
     `,
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuHeartHandshake),
     date: "October 2018 - March 2019",
   },
 ] as const;
@@ -129,14 +135,17 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "Python",
   "Microsoft Excel",
+  "NetSuite",
+  "Oracle",
+  "Python",
   "Outlook",
   "OneDrive",
   "Microsoft Access",
+  "MITC",
+  "HTML",
+  "CSS",
+  "JavaScript",
   "React",
   "Next.js",
   "Node.js",
