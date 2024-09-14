@@ -29,7 +29,7 @@ export default function About() {
                 I love creating websites and have worked with
                 <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
                 Accounts Payable, where I manage financial data and invoices with Excel. Additionally, I have over three years of experience as a security guard at the 
-                <span className="font-medium"> Los Angeles Cruise Center</span>. I've now transitioned from security to Accounting, managing Accounts Receivable at my former employer while simultaneously working 
+                <span className="font-medium"> Los Angeles Cruise Center</span>. I&apos;ve now transitioned from security to Accounting, managing Accounts Receivable at my former employer while simultaneously working 
                 an Accounting internship at WestCal Academy. 
             </p>
         </motion.section>
