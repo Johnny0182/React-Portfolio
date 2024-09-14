@@ -82,7 +82,7 @@ export default function Intro() {
         <Link href="#contact" 
         className="group bg-black text-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        hover:bg-blue-700 active:scale-105 transition"
+        hover:bg-blue-700 active:scale-105 transition dark:bg-blue-900 dark:hover:bg-blue-700"
         onClick={() => {
           setActiveSection("Contact");
           setTimeOfLastClick(Date.now());
@@ -94,7 +94,7 @@ export default function Intro() {
         <a 
         className="group bg-white px-7 py-3 flex items-center
         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-        hover:bg-green-600 hover:text-white active:scale-105 transition cursor-pointer borderBlack"
+        hover:bg-green-600 hover:text-white active:scale-105 transition cursor-pointer borderBlack dark:bg-green-950 dark:hover:bg-green-700"
         href="/Resume.pdf" 
         download
         >
@@ -105,7 +105,7 @@ export default function Intro() {
         <a 
         className="bg-white p-4 text-gray-700 flex items-center
         gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:bg-blue-700 hover:text-white
-        active:scale-105 transition cursor-pointer borderBlack"
+        active:scale-105 transition cursor-pointer borderBlack dark:text-white dark:bg-white/10 dark:hover:bg-blue-500"
         href="https://www.linkedin.com/in/johnny-leyva-125259167" target="_blank">
           <BsLinkedin />
         </a>
@@ -113,7 +113,7 @@ export default function Intro() {
         className="bg-white p-4 text-gray-700 flex items-center
         gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]
         hover:bg-green-600 hover:text-white
-        active:scale-105 transition cursor-pointer borderBlack"
+        active:scale-105 transition cursor-pointer borderBlack dark:hover:bg-green-700 dark:bg-white/10 dark:text-white"
         href="https://github.com/Johnny0182" target="_blank">
           <FaGithubSquare />
         </a>

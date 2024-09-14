@@ -20,18 +20,17 @@ export default function About() {
             <p className="mb-3">
                 I  am actively pursuing a degree in 
                 <span className="font-medium"> Accounting</span> at 
-                <span className="font-medium"> California State University Dominguez Hills</span>, with an anticipated graduation in 
+                <span className="font-medium"> California State University, Dominguez Hills</span>, with an anticipated graduation in 
                 <span className="font-medium"> June 2025</span>, and I look forward to pursuing my CPA after graduation. I am proficient in 
-                <span className="font-medium"> Excel, Word, Access, PowerPoint, Outlook, and VS Code</span>, with extensive experience in file management using 
-                <span className="font-medium"> OneDrive, Dropbox, and GoogleDrive</span>. 
+                <span className="font-medium"> Excel, NetSuite, Oracle, Word, Access, PowerPoint, and Outlook</span>; with extensive experience in file management using 
+                <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>. 
             </p>
             <p>
-                I love for creating websites and have worked with
+                I love creating websites and have worked with
                 <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
-                Accounts Payable, where I managed financial data and invoices with Excel. I started off as an intern and was later hired as a
-                <span className="font-medium"> Lead for the Accounts Receivable/Payable Department</span> at WestCalAcademy.
-                Additionally, I have over three years of experience as a security guard at the 
-                <span className="font-medium"> Los Angeles Cruise Center</span>.
+                Accounts Payable, where I manage financial data and invoices with Excel. Additionally, I have over three years of experience as a security guard at the 
+                <span className="font-medium"> Los Angeles Cruise Center</span>. I've now transitioned from security to Accounting, managing Accounts Receivable at my former employer while simultaneously working 
+                an Accounting internship at WestCal Academy. 
             </p>
         </motion.section>
     );
