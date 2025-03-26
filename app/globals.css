@@ -16,19 +16,19 @@ html.dark {
 
 @keyframes colorPulse {
   0% {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); /* blue-500 */
+    box-shadow: 0 0 30px 10px rgba(59, 130, 246, 0.9); /* blue-500 */
   }
   25% {
-    box-shadow: 0 0 20px rgba(216, 191, 216, 0.5); /* lavender */
+    box-shadow: 0 0 30px 10px rgba(216, 191, 216, 0.9); /* lavender */
   }
   50% {
-    box-shadow: 0 0 20px rgba(255, 105, 180, 0.5); /* pink */
+    box-shadow: 0 0 30px 10px rgba(255, 105, 180, 0.9); /* pink */
   }
   75% {
-    box-shadow: 0 0 20px rgba(34, 197, 94, 0.5); /* green-500 */
+    box-shadow: 0 0 30px 10px rgba(34, 197, 94, 0.9); /* green-500 */
   }
   100% {
-    box-shadow: 0 0 20px rgba(34, 211, 238, 0.5); /* cyan-400 */
+    box-shadow: 0 0 30px 10px rgba(34, 211, 238, 0.9); /* cyan-400 */
   }
 }
 
