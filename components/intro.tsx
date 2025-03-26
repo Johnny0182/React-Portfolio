@@ -38,9 +38,7 @@ export default function Intro() {
             height="192"
             quality="95"
             priority={true}
-            className="h-30 w-30 rounded-full
-            object-cover border-[0.35rem]
-            border-white shadow-xl"
+            className="h-30 w-30 rounded-full object-cover border-[0.35rem] border-white shadow-xl shadow-blue-500/50 animate-pulse"
           />  
             </motion.div>
 
