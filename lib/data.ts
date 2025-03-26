@@ -49,7 +49,7 @@ export const experiencesData = [
     company: "WestCal Academy",
     location: "Long Beach, CA",
     description: `
-      Utilize Outlook and OneDrive daily for efficient communication and document management. Develop Excel spreadsheets for budget creation, management, and planning. Manage hundreds of monthly invoices, ensuring accurate and timely billing.
+      At WestCal Academy, I began in billing and accounts receivable and now serve as the financial assistant to the Vice President. I handle both AR/AP, manage budgets, and support financial planning through data analysis in Excel. I also use Outlook and OneDrive daily to maintain efficient communication and document management for a mission-driven organization supporting underserved youth.
     `,
     icon: React.createElement(LuCalculator),
     date: "March 2024 - Present",
