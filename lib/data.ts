@@ -45,11 +45,11 @@ export const experiencesData = [
     date: "July 2024 - Present",
   },
   {
-    title: "Billing and Accounts Receivable",
+    title: "Financial Assistant (AR/AP)",
     company: "WestCal Academy",
     location: "Long Beach, CA",
     description: `
-      At WestCal Academy, I began in billing and accounts receivable and now serve as the financial assistant to the Vice President. I handle both AR/AP, manage budgets, and support financial planning through data analysis in Excel. I also use Outlook and OneDrive daily to maintain efficient communication and document management for a mission-driven organization supporting underserved youth.
+      Started in the billing department and now serve as the financial assistant to the Vice President. I handle both AR/AP, manage budgets, and support financial planning through data analysis in Excel for an amazing organization dedicated to supporting underserved youth.
     `,
     icon: React.createElement(LuCalculator),
     date: "March 2024 - Present",
@@ -61,7 +61,7 @@ export const experiencesData = [
     description: `
       Operate X-Ray Machines to scan bags, belongings, and items carried by guests.
       Interact courteously and professionally with guests undergoing the security screening process.
-      Collaborate with law enforcement and port officials to maintain a secure environment and adhere to maritime security regulations.
+      Collaborate with law enforcement and port officials to maintain a secure environment.
     `,
     icon: React.createElement(LuPersonStanding),
     date: "January 2021 - July 2024",
@@ -83,7 +83,7 @@ export const experiencesData = [
     company: "Amazon Warehouse",
     location: "Torrance, CA",
     description: `
-      Efficiently drove and operated a floor scrubber to maintain the cleanliness of large warehouse floors, ensuring a tidy and safe working environment for employees and visitors.
+      Efficiently drove and operated a floor scrubber to maintain the cleanliness of large warehouse floors, ensuring a clean and safe working environment for employees and visitors.
       Performed thorough cleaning/sanitation of restrooms.
       Followed and established safety guidelines and procedures while performing janitorial duties.
     `,
