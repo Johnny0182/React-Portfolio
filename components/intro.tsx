@@ -32,7 +32,7 @@ export default function Intro() {
                 }}
             >
             <Image
-            src="https://i.imgur.com/W98Mjzh.jpeg"
+            src="/profile-picture.jpeg"
             alt="Johnny Photo"
             width="192"
             height="192"
