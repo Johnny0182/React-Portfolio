@@ -85,6 +85,7 @@ export default function Intro() {
           setActiveSection("Contact");
           setTimeOfLastClick(Date.now());
         }}
+        onMouseLeave={(e: React.MouseEvent<HTMLAnchorElement>) => e.currentTarget.blur()}
         >
           Contact me here <BsArrowRight 
           className="opacity-70 group-hover:translate-x-1 transition"/>
