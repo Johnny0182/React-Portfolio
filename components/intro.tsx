@@ -95,6 +95,7 @@ export default function Intro() {
         hover:bg-green-600 hover:text-white active:scale-105 transition cursor-pointer borderBlack dark:bg-green-950 dark:hover:bg-green-700"
         href="/Resume.pdf" 
         download
+        onMouseLeave={(e: React.MouseEvent<HTMLAnchorElement>) => e.currentTarget.blur()}
         >
           Download Resume <HiDownload 
           className="opacity-60 group-hover:translate-y-1 transition"/>
