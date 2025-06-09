@@ -106,31 +106,31 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Cable Construction",
+    title: "Shipping Company Website",
     description: `
-      A website designed for a cable construction company. Built with HTML, CSS, and JavaScript.
+      A website designed for a shipping company. Built with HTML and CSS for a class project.
     `,
-    tags: ["HTML", "CSS", "JavaScript", "NodeJS"],
+    tags: ["HTML", "CSS", "Canva", "VS Code", "GitHub Pages"],
     imageUrl: cableImg,
-    link: "https://github.com/Johnny0182"
+    link: "https://primostransport.com"
   },
   {
-    title: "Easy Invoicing",
+    title: "Easy Invoicing Application",
     description: `
       A streamlined invoicing tool that simplifies billing processes for small businesses. Developed with Python and Flask.
     `,
-    tags: ["Python", "Excel", "Flask", "Outlook"],
+    tags: ["Python", "Excel", "Word", "Outlook"],
     imageUrl: invoiceImg,
     link: "https://github.com/Johnny0182/invoice-generator"
   },
   {
-    title: "Takeout & Delivery App",
+    title: "Discord Bot",
     description: `
-      A mobile-friendly app that helps users order takeout from local restaurants. Created with React and SQL.
+      Deployed with Heroku for the Discord App. The main functions include sending a daily quote and retrieving the latest news articles on the user's preferred topic.
     `,
-    tags: ["React", "Next.js", "SQL", "Tailwind", "MongoDB"],
+    tags: ["Python", "Heroku", "GitHub", "Discord"],
     imageUrl: takeoutImg,
-    link: "https://github.com/Johnny0182"
+    link: "https://github.com/Johnny0182/Kirby-Bot"
   },
 ] as const;
 
@@ -150,10 +150,10 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Heroku",
   "Tailwind",
   "Framer Motion",
   "Adobe Premiere Pro",
-  "After Effects",
   "Photoshop",
   "Cap Cut",
   "Canva",
