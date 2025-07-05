@@ -64,10 +64,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span>Hello, my name is</span>
-        <span className="font-bold"> Johnny Leyva.</span> I&apos;m an aspiring
-        <span className="font-bold"> Accountant,</span> pursuing a
-        <span className="font-bold"> Bachelors Degree</span> at
-        <span className="font-bold"> California State University Dominguez Hills.</span>
+        <span className="font-bold"> Johnny Leyva.</span> I&apos;m an
+        <span className="font-bold"> Accounting graduate</span> from
+        <span className="font-bold"> California State University, Dominguez Hills,</span> currently pursuing my
+        <span className="font-bold"> CPA license.</span>
       </motion.h2>
       <motion.div className="flex flex-col sm:flex-row
       items-center justify-center gap-2 px-4 text-lg font-medium"
