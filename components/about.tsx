@@ -18,19 +18,22 @@ export default function About() {
         >
             <SectionHeading>About Me</SectionHeading>
             <p className="mb-3">
-                I  am actively pursuing a degree in 
-                <span className="font-medium"> Accounting</span> at 
-                <span className="font-medium"> California State University, Dominguez Hills</span>, with an anticipated graduation in 
-                <span className="font-medium"> June 2025</span>, and I look forward to pursuing my CPA after graduation. I am proficient in 
-                <span className="font-medium"> Excel, NetSuite, Oracle, Word, Access, PowerPoint, and Outlook</span>; with extensive experience in file management using 
-                <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>. 
+                I recently graduated with a degree in
+                <span className="font-medium"> Accounting</span> from
+                <span className="font-medium"> California State University, Dominguez Hills</span>, and I am now actively pursuing my
+                <span className="font-medium"> CPA license.</span> I am proficient in
+                <span className="font-medium"> Excel, NetSuite, Oracle, Word, Access, PowerPoint, and Outlook</span>; with extensive experience in file management using
+                <span className="font-medium"> OneDrive, Dropbox, and Google Drive</span>.
             </p>
             <p>
-                I love creating websites and have worked with
-                <span className="font-medium"> HTML, CSS, JavaScript, React, Python, Linux systems, and virtual machines</span>. My professional background includes over six months in Accounts Receivable and 
-                Accounts Payable, where I manage financial data and invoices with Excel. Additionally, I have over three years of experience as a security guard at the 
-                <span className="font-medium"> Los Angeles Cruise Center</span>. I&apos;ve now transitioned from security to Accounting, managing Accounts Receivable at my former employer while simultaneously working 
-                an Accounting internship at WestCal Academy. 
+                I enjoy creating websites and have hands-on experience with
+                <span className="font-medium"> HTML, CSS, JavaScript, React, and Python</span>. I’m especially interested in
+                <span className="font-medium"> systems integration</span>, particularly in streamlining financial and accounting tools to improve efficiency.
+                I’ve transitioned into the accounting field, advancing from a security role into an
+                <span className="font-medium"> Accounts Receivable</span> position at the same organization.
+                Additionally, I serve remotely as a
+                <span className="font-medium"> Financial Assistant to the Vice President</span> at
+                <span className="font-medium"> WestCal Academy</span>, a nonprofit organization.
             </p>
         </motion.section>
     );
